@@ -34,17 +34,17 @@ public class Ejemplo02 {
             System.out.println("Ingrese (s, y, yes, si) si desea salir del ciclo ");
             salida = entrada.nextLine();
             salida = salida.toLowerCase();
-            /*switch (salida){
+            switch (salida){
                     case ("y"):
                     case ("yes"):
                     case ("s"):
                     case ("si"):
                          bandera = false;
                          break;
-                         */
-            if (salida.equals ("s")|| salida.equals ("y")||salida.equals ("yes")
+                         
+            /*if (salida.equals ("s")|| salida.equals ("y")||salida.equals ("yes")
                     || salida.equals ("si") ){
-                bandera = false;
+                bandera = false;--esta forma esta echa con el if*/
             }            
         } while (bandera); // (bandera==true)
 
